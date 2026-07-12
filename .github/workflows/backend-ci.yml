@@ -16,7 +16,8 @@ on:
     #   - ".github/workflows/backend-ci.yml"
 
 jobs:
-  build:
+  backend-build:
+    name: Backend build
     runs-on: ubuntu-latest
 
     defaults:

@@ -16,7 +16,8 @@ on:
     #   - ".github/workflows/frontend-ci.yml"
 
 jobs:
-  build:
+  frontend-build:
+    name: Frontend build
     runs-on: ubuntu-latest
 
     defaults:
