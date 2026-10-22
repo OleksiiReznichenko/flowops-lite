@@ -1,74 +1,72 @@
+
 # FlowOps Lite
 
-FlowOps Lite is a full-stack portfolio project built to explore modern business software development with .NET, PostgreSQL, Azure, Next.js, and TypeScript.
+FlowOps Lite is a personal full-stack project I'm building to get more hands-on experience with C#, ASP.NET Core, databases and modern application development.
 
-The project is designed as a small operations platform for Norwegian SMBs that need a simple way to manage products, inventory, customers, and orders.
+The idea is to create a small operations platform where businesses can manage products, inventory, customers and orders.
 
 ## Project status
 
-Early development.
+**Early development - work in progress.**
 
-Current phase:
+The project is currently focused on setting up the development environment, application structure and basic tooling.
 
-- [ ] Initial repository setup
-- [ ] Local PostgreSQL setup with Docker
-- [ ] Backend solution setup
-- [ ] Frontend app setup
-- [ ] Basic CI workflows
+The repository includes:
 
-## Tech stack
+- Backend and frontend project structure
+- PostgreSQL configuration with Docker Compose
+- Initial GitHub Actions workflow files
+- Architecture and development documentation
 
-### Backend
+Core business features are not implemented yet.
 
+## Technology choices
+
+The main technologies selected for the project are:
+
+**Backend**
 - C#
 - ASP.NET Core
-- Entity Framework Core
 - PostgreSQL
-- ASP.NET Identity
-- JWT authentication
-- FluentValidation
-- Serilog
-- xUnit
 
-### Frontend
-
+**Frontend**
 - Next.js
 - TypeScript
-- Tailwind CSS
-- CSS Modules
-- Radix UI primitives
-- TanStack Query
-- Zustand
-- Recharts
 
-### Infrastructure
+**Development tools**
+- Docker and Docker Compose
+- Git and GitHub Actions
 
-- Docker
-- GitHub Actions
-- Azure App Service
-- Azure Database for PostgreSQL
-- Vercel
+Other technologies, including Entity Framework Core, authentication, automated backend testing and Azure services, are part of the planned development work.
 
 ## Planned features
 
 - Product and inventory management
 - Customer management
-- Order workflow
-- Dashboard with KPIs
-- Audit log
-- Admin and standard user roles
-- Norwegian currency, date, and VAT formatting
+- Order processing
+- Dashboard with basic statistics
+- Authentication and user roles
+- Audit logging
+- Norwegian currency, date and VAT formatting
+
+These features are part of the project plan and shouldn't be considered implemented functionality.
 
 ## Repository structure
 
 ```text
 flowops-lite/
-├── backend/             # ASP.NET Core backend
-├── frontend/            # Next.js frontend
-├── docs/                # Architecture and project documentation
-├── .github/workflows/   # CI/CD workflows
-├── docker-compose.yml   # Local development services
-├── .editorconfig
-├── .gitignore
-├── LICENSE
+├── backend/          # ASP.NET Core backend
+├── frontend/         # Next.js frontend
+├── docs/             # Architecture and technical documentation
+├── .github/workflows/
+├── docker-compose.yml
 └── README.md
+```
+
+## Development
+
+I'm building this project gradually while studying Information Technology at OsloMet.
+
+The main goal is to gain experience with backend architecture, APIs, database design, testing and deployment, rather than just putting together another frontend.
+
+I'll update this README as working features are added.
